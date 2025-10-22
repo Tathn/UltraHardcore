@@ -34,6 +34,7 @@ Functions/SetBreathBarDisplay.lua
 Functions/AnnounceLevelUpToGuild.lua
 Functions/FirstPersonCamera.lua
 Functions/RoutePlanner.lua
+Functions/SetActionBarVisibilityCombat.lua
 
 Functions/Statistics/TrackLowestHealth.lua
 Functions/Statistics/TrackXPPerSetting.lua

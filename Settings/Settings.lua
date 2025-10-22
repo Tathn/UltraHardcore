@@ -210,6 +210,10 @@ local settingsCheckboxOptions = { {
   name = 'Route Planner',
   dbSettingsValueName = 'routePlanner',
   tooltip = 'Get a compass. Map only usable near campfire or when resting. Plan your routes carefully',
+}, {
+  name = 'Hide Action Bars when not in combat',
+  dbSettingsValueName = 'hideActionBarsCombat',
+  tooltip = 'Hide action bars when not in combat or resting',
 } }
 
 local presets = { {
@@ -232,6 +236,7 @@ local presets = { {
   hideBreathIndicator = false,
   setFirstPersonCamera = false,
   routePlanner = false,
+  hideActionBarsCombat = false,
 }, {
   -- Preset 2: Recommended
   hidePlayerFrame = true,
@@ -252,6 +257,7 @@ local presets = { {
   hideBreathIndicator = true,
   setFirstPersonCamera = false,
   routePlanner = false,
+  hideActionBarsCombat = false,
 }, {
   -- Preset 3: Ultra
   hidePlayerFrame = true,
@@ -273,6 +279,7 @@ local presets = { {
   setFirstPersonCamera = false,
   newHighCritAppreciationSoundbite = true,
   routePlanner = false,
+  hideActionBarsCombat = false,
 } }
 
 -- Temporary settings storage and initialization function
@@ -1205,6 +1212,7 @@ local presetSections = { {
     'showHealingIndicator',
     'setFirstPersonCamera',
     'routePlanner',
+    'hideActionBarsCombat',
   },
 } }
 
@@ -1405,6 +1413,7 @@ local function createCheckboxes()
       'showHealingIndicator',
       'setFirstPersonCamera',
       'routePlanner',
+      'hideActionBarsCombat',
     },
   }, {
     title = 'Misc:',
@@ -1690,6 +1699,7 @@ local function UpdateXPBreakdown()
       'showHealingIndicator',
       'setFirstPersonCamera',
       'routePlanner',
+      'hideActionBarsCombat',
     },
   } }
 
