@@ -59,6 +59,7 @@ UltraHardcore:SetScript('OnEvent', function(self, event, ...)
     end
     SetRoutePlanner(GLOBAL_SETTINGS.routePlanner or false)
     SetRoutePlannerCompass(GLOBAL_SETTINGS.routePlannerCompass or false)
+    SetActionBarCombatVisibility(GLOBAL_SETTINGS.hideActionBarsCombat or false)
     DisablePetCombatText()
     RepositionPetHappinessTexture()
   elseif event == 'UNIT_HEALTH_FREQUENT' then
