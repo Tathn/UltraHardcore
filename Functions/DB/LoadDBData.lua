@@ -50,6 +50,7 @@ function LoadDBData()
     completelyRemoveTargetFrame = false,
     routePlanner = false,
     routePlannerCompass = false,
+    hideActionBarsCombat = false,
     -- Misc Settings
     showOnScreenStatistics = true,
     announceLevelUpToGuild = true,

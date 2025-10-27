@@ -83,6 +83,10 @@ local settingsCheckboxOptions = { {
   dbSettingsValueName = 'completelyRemoveTargetFrame',
   tooltip = 'Completely remove the target frame',
 }, {
+  name = 'Hide Action Bars when not in combat',
+  dbSettingsValueName = 'hideActionBarsCombat',
+  tooltip = 'Hide action bars when not in combat',
+}, {
   -- Misc Settings (no preset button)
   name = 'On Screen Statistics',
   dbSettingsValueName = 'showOnScreenStatistics',
@@ -167,6 +171,7 @@ local presets = { {
   setFirstPersonCamera = false,
   routePlanner = false,
   routePlannerCompass = false,
+  hideActionBarsCombat = false,
   -- Misc Settings
   showOnScreenStatistics = true,
   announceLevelUpToGuild = true,
@@ -206,6 +211,7 @@ local presets = { {
   setFirstPersonCamera = false,
   routePlanner = false,
   routePlannerCompass = false,
+  hideActionBarsCombat = false,
   -- Misc Settings
   showOnScreenStatistics = true,
   announceLevelUpToGuild = true,
@@ -245,6 +251,7 @@ local presets = { {
   setFirstPersonCamera = false,
   routePlanner = false,
   routePlannerCompass = false,
+  hideActionBarsCombat = false,
   -- Misc Settings
   showOnScreenStatistics = true,
   announceLevelUpToGuild = true,

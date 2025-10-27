@@ -35,6 +35,7 @@ local PRESET_SECTIONS = { {
     'completelyRemoveTargetFrame',
     'routePlanner',
     'routePlannerCompass',
+    'hideActionBarsCombat',
   },
 }, {
   title = 'Misc:',
